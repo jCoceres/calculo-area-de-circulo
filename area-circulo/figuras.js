@@ -21,7 +21,7 @@ if ( radio >= 0 ) {
 
     alert('El radio no es valido, ingrese un valor entre');
     radio = parseInt(prompt( 'Indica el radio en cm'));   
-    areaCirculo = parseInt(( radio ** 2 ) * pi);
+    areaCirculo = parseInt(( radio * radio ) * pi);
 }
 
 areaCirculo = `El Area de la circunferencia es: ${areaCirculo} cm^2. `
