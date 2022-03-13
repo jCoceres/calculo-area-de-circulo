@@ -19,7 +19,7 @@ if ( radio >= 0 ) {
 
 } else {
 
-    alert('El radio no es valido, ingrese un valor entre');
+    alert('El radio no es valido');
     radio = parseInt(prompt( 'Indica el radio en cm'));   
     areaCirculo = parseInt(( radio * radio ) * pi);
 }
